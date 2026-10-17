@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "ba6cface1aedb0d626edee7c",
+  "owner": "xhmnytmhh",
+  "repo": "page-6e1bb12ceeee6a462237fc14",
+  "title": "fanshen",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "6e1bb12ceeee6a462237fc14",
+      "a": "fanshen",
+      "b": "",
+      "entity": "fanshen",
+      "brand": "fanshen",
+      "separator": "",
+      "path": "index.html",
+      "hash": "f07ca5fe3823672e5c6e176ab6c1d2efa5aea20b0a7bf0d5e2e8dbb97b63849b",
+      "content": {
+        "keyword1": "fanshen",
+        "keyword2": "",
+        "primary_entity": "fanshen",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。",
+          "AI_DESCRIPTION": "fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n:root {--bg-deep: #0B132B;--bg-surface: #1C2541;--text-main: #E0FBFC;--text-muted: #8D99AE;--accent: #FFB703;--border-subtle: rgba(141, 153, 174, 0.2)}\n* {box-sizing: border-box;margin: 0;padding: 0}\nbody {background-color: var(--bg-deep);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif;line-height: 1.6;padding-top: 40px}\nheader {position: fixed;top: 0;left: 0;width: 100%;height: 40px;background-color: var(--bg-deep);border-bottom: 1px solid var(--border-subtle);display: flex;justify-content: space-between;align-items: center;padding: 0 2rem;z-index: 100;font-size: 0.85rem}\nheader .brand-tag {color: var(--accent);font-weight: 700;letter-spacing: 0.1em;text-transform: uppercase}\nheader nav a {color: var(--text-muted);text-decoration: none;margin-left: 1.5rem;transition: color 0.2s}\nheader nav a:hover {color: var(--text-main)}\nmain {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem 6rem}\n.hero {display: grid;grid-template-columns: 2fr 1fr;gap: 4rem;align-start: top;margin-bottom: 6rem;border-bottom: 1px solid var(--border-subtle);padding-bottom: 4rem}\n@media (max-width: 768px) {\n  .hero {grid-template-columns: 1fr;gap: 2rem}\n}\n.hero-content h1 {font-size: 3rem;font-weight: 300;letter-spacing: -0.02em;margin-bottom: 1.5rem;color: var(--text-main)}\n.hero-content h1 span {color: var(--accent);font-weight: 600}\n.hero-content p {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 2rem;max-width: 600px}\n.hero-quote {background-color: var(--bg-surface);padding: 2rem;border-left: 3px solid var(--accent);font-style: italic;color: var(--text-muted);font-size: 0.95rem}\n.section-title {font-size: 1.5rem;font-weight: 400;margin-bottom: 2rem;letter-spacing: 0.05em;text-transform: uppercase;color: var(--accent)}\n.specs-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 3rem;margin-bottom: 6rem}\n.spec-card {padding: 0;background: transparent}\n.spec-card h3 {font-size: 1.2rem;margin-bottom: 1rem;color: var(--text-main)}\n.spec-card p {color: var(--text-muted);font-size: 0.95rem}\n.plans-section {margin-bottom: 6rem}\n.plans-container {display: flex;flex-direction: column;gap: 2rem}\n.plan-item {background-color: var(--bg-surface);padding: 2.5rem;display: grid;grid-template-columns: 1fr 2fr 1fr;gap: 2rem;align-items: center;border: 1px solid var(--border-subtle);transition: border-color 0.2s}\n.plan-item:hover {border-color: var(--accent)}\n@media (max-width: 768px) {\n  .plan-item {grid-template-columns: 1fr;gap: 1.5rem}\n}\n.plan-info h3 {font-size: 1.5rem;margin-bottom: 0.5rem}\n.plan-info .price {font-size: 1.25rem;color: var(--accent);font-weight: 600}\n.plan-info .annual {font-size: 0.85rem;color: var(--text-muted)}\n.plan-features ul {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.5rem 1rem}\n@media (max-width: 600px) {\n  .plan-features ul {grid-template-columns: 1fr}\n}\n.plan-features li {color: var(--text-muted);font-size: 0.9rem;position: relative;padding-left: 1rem}\n.plan-features li::before {content: \"—\";position: absolute;left: 0;color: var(--accent)}\n.plan-action {text-align: right}\n@media (max-width: 768px) {\n  .plan-action {text-align: left}\n}\n.btn {display: inline-block;background-color: transparent;color: var(--text-main);border: 1px solid var(--accent);padding: 0.75rem 1.5rem;text-decoration: none;font-size: 0.9rem;letter-spacing: 0.05em;transition: background-color 0.2s, color 0.2s}\n.btn:hover {background-color: var(--accent);color: var(--bg-deep)}\n.faq-section {margin-bottom: 4rem}\n.faq-group {margin-bottom: 3rem}\n.faq-group h3 {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 1.5rem;border-bottom: 1px solid var(--border-subtle);padding-bottom: 0.5rem}\n.faq-item {margin-bottom: 1.5rem}\n.faq-item dt {font-weight: 600;margin-bottom: 0.5rem;color: var(--text-main)}\n.faq-item dd {color: var(--text-muted);font-size: 0.95rem}\nfooter {border-top: 1px solid var(--border-subtle);padding: 2rem;text-align: center;color: var(--text-muted);font-size: 0.85rem}\n</style><header>\n  <div class=\"brand-tag\">fanshen</div>\n  <nav>\n    <a href=\"#overview\">概述</a>\n    <a href=\"#plans\">方案</a>\n    <a href=\"#faq\">参数与问答</a>\n  </nav>\n</header>\n\n<main>\n  <div id=\"overview\" class=\"hero\">\n    <div class=\"hero-content\">\n      <h1>系统化数字连接 <span>fanshen</span></h1>\n      <p>面向特定需求场景构建的精细化网络传输架构。通过多层协议适配与节点优化，提供清晰、稳定、可预测的链路控制能力。</p>\n    </div>\n    <div class=\"hero-quote\">\n      “在复杂的网络环境中，秩序与克制是维持长效连接的唯一解法。我们专注于基础设施的底层净化。”\n    </div>\n  </div>\n\n  <div class=\"specs-grid\">\n    <div class=\"spec-card\">\n      <h3>01 / 协议适配</h3>\n      <p>全面兼容主流加密传输协议，针对不同网络环境自动匹配最优路由策略，降低延迟波动。</p>\n    </div>\n    <div class=\"spec-card\">\n      <h3>02 / 流量隔离</h3>\n      <p>采用独立沙盒化流量分配机制，确保多设备并行时带宽独占，避免拥堵与速率衰减。</p>\n    </div>\n    <div class=\"spec-card\">\n      <h3>03 / 节点矩阵</h3>\n      <p>严选骨干网直连节点，剔除冗余跳数，实现物理路径与逻辑路径的双重优化。</p>\n    </div>\n  </div>\n\n  <div id=\"plans\" class=\"plans-section\">\n    <h2 class=\"section-title\">连接方案阶梯</h2>\n    <div class=\"plans-container\">\n      \n      <div class=\"plan-item\">\n        <div class=\"plan-info\">\n          <h3>基础版</h3>\n          <div class=\"price\">¥15/月</div>\n          <div class=\"annual\">按年付仅需 ¥150/年</div>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 100GB 极速流量</li>\n            <li>支持 3 台设备同时在线</li>\n            <li>解锁基础流媒体</li>\n            <li>普通线路节点池</li>\n          </ul>\n        </div>\n        <div class=\"plan-action\">\n          <a href=\"#\" class=\"btn\">配置并启用</a>\n        </div>\n      </div>\n\n      <div class=\"plan-item\">\n        <div class=\"plan-info\">\n          <h3>旗舰版</h3>\n          <div class=\"price\">¥35/月</div>\n          <div class=\"annual\">按年付仅需 ¥350/年</div>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 300GB 极速流量</li>\n            <li>支持 5 台设备同时在线</li>\n            <li>全节点原生流媒体解锁</li>\n            <li>IPLC 专线游戏加速优化</li>\n            <li>7x24 优先工单支持</li>\n          </ul>\n        </div>\n        <div class=\"plan-action\">\n          <a href=\"#\" class=\"btn\">配置并启用</a>\n        </div>\n      </div>\n\n      <div class=\"plan-item\">\n        <div class=\"plan-info\">\n          <h3>团队版</h3>\n          <div class=\"price\">¥85/月</div>\n          <div class=\"annual\">按年付仅需 ¥850/年</div>\n        </div>\n        <div class=\"plan-features\">\n          <ul>\n            <li>每月 1000GB 极速流量</li>\n            <li>支持 20 台设备同时在线</li>\n            <li>VIP 专属高带宽节点</li>\n            <li>支持企业定制路由</li>\n            <li>专属客户经理服务</li>\n          </ul>\n        </div>\n        <div class=\"plan-action\">\n          <a href=\"#\" class=\"btn\">配置并启用</a>\n        </div>\n      </div>\n\n    </div>\n  </div>\n\n  <div id=\"faq\" class=\"faq-section\">\n    <h2 class=\"section-title\">常见问题与技术参数</h2>\n    \n    <div class=\"faq-group\">\n      <h3>账户与接入</h3>\n      <dl class=\"faq-item\">\n        <dt>如何获取初始化配置文件？</dt>\n        <dd>在完成方案选择与账户激活后，控制台将自动生成对应协议的订阅链接或一键导入配置，支持主流客户端。</dd>\n      </dl>\n      <dl class=\"faq-item\">\n        <dt>设备并发限制的计算规则是什么？</dt>\n        <dd>并发限制指同一时间段内允许连接系统的最大终端设备数量。若超出限制，系统将自动断开最早建立的连接。</dd>\n      </dl>\n    </div>\n\n    <div class=\"faq-group\">\n      <h3>流量与线路</h3>\n      <dl class=\"faq-item\">\n        <dt>流量重置周期是如何计算的？</dt>\n        <dd>所有方案的流量额度均以自然月为周期进行重置，未使用的流量不会累积至下一个计费周期。</dd>\n      </dl>\n      <dl class=\"faq-item\">\n        <dt>专线节点与普通节点的区别在哪？</dt>\n        <dd>专线节点采用 IPLC/IEPL 国际私有专线，不经过公共公网路由，具备极低的延迟与抗干扰能力；普通节点则采用优化的商业宽带骨干网。</dd>\n      </dl>\n    </div>\n\n  </div>\n</main>\n\n<footer>\n  <p>© fanshen System. All rights reserved.</p>\n</footer>",
+          "hash": "4068e40ec9ecda328605199c46fbdeb0e536c73c20b691ec1937a89d9f3630c3",
+          "seo": {
+            "title": "fanshen - 系统化数字连接说明书",
+            "keywords": "fanshen, 网络连接, 节点配置, 专线服务, 流量管理",
+            "description": "fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。"
+          },
+          "provider": "grok",
+          "model": "gemini-3.7-flash",
+          "design": {
+            "no": "9282",
+            "hero": "3 杂志式多栏网格配引言",
+            "palette": "3 深海蓝配琥珀",
+            "nav": "1 顶部细横条",
+            "card": "1 无边框仅靠留白分隔",
+            "plans_view": "3 阶梯式递进排列",
+            "faq_view": "3 按主题分组",
+            "tone": "1 冷静克制的说明书口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "ptptsc.cn",
+    "host": "p-be5ecea97f.ptptsc.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "4e8844e0ff39ff3aaa0f1e886245a67173a73dd0ef186101daf51bfaa7740a59",
+    "sitemap.xml": "bee4f5a6ccb6cafb2cd517792a5eab4cf0061d9f75ce6b78fba3f6513e24f7cc",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "4a12e1ed6a9a6bc19271c69278b01d50fb1cbea5cedc0e39e6695014fed62b93",
+    "robots.txt": "699ffe26260ffe326aa0d190ff4e204697af827463d4f790cf2172636cb77f03",
+    "3fbc22f037cf3424c7f904bb97337db9.txt": "1136d2870c0757fb0ccfb6599974dfbf61083490155be5be70609e2fc759e85d"
+  },
+  "revision": "4e097013300aa465429a4b574a181b33762de4c24d26755388e00f8eb93ef86e"
+}

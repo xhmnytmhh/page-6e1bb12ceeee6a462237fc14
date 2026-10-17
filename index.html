@@ -1,0 +1,185 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>fanshen - 系统化数字连接说明书</title><meta name="description" content="fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。"><meta name="keywords" content="fanshen, 网络连接, 节点配置, 专线服务, 流量管理"><meta name="robots" content="index,follow"><link rel="canonical" href="https://p-be5ecea97f.ptptsc.cn/"><meta property="og:type" content="website"><meta property="og:title" content="fanshen - 系统化数字连接说明书"><meta property="og:description" content="fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。"><meta property="og:url" content="https://p-be5ecea97f.ptptsc.cn/"><meta property="og:site_name" content="fanshen"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebPage", "url": "https://p-be5ecea97f.ptptsc.cn/", "name": "fanshen - 系统化数字连接说明书", "description": "fanshen 提供系统化的数字连接方案与精细化流量管理，以冷静克制的工程逻辑构建稳定网络基础设施。", "inLanguage": "zh-CN"}</script><meta name="publisher-task" content="6e1bb12ceeee6a462237fc14:f07ca5fe3823672e5c6e176ab6c1d2efa5aea20b0a7bf0d5e2e8dbb97b63849b:63872705fba4bfee9369"></head><body id="top"><style>
+:root {--bg-deep: #0B132B;--bg-surface: #1C2541;--text-main: #E0FBFC;--text-muted: #8D99AE;--accent: #FFB703;--border-subtle: rgba(141, 153, 174, 0.2)}
+* {box-sizing: border-box;margin: 0;padding: 0}
+body {background-color: var(--bg-deep);color: var(--text-main);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;line-height: 1.6;padding-top: 40px}
+header {position: fixed;top: 0;left: 0;width: 100%;height: 40px;background-color: var(--bg-deep);border-bottom: 1px solid var(--border-subtle);display: flex;justify-content: space-between;align-items: center;padding: 0 2rem;z-index: 100;font-size: 0.85rem}
+header .brand-tag {color: var(--accent);font-weight: 700;letter-spacing: 0.1em;text-transform: uppercase}
+header nav a {color: var(--text-muted);text-decoration: none;margin-left: 1.5rem;transition: color 0.2s}
+header nav a:hover {color: var(--text-main)}
+main {max-width: 1200px;margin: 0 auto;padding: 4rem 2rem 6rem}
+.hero {display: grid;grid-template-columns: 2fr 1fr;gap: 4rem;align-start: top;margin-bottom: 6rem;border-bottom: 1px solid var(--border-subtle);padding-bottom: 4rem}
+@media (max-width: 768px) {
+  .hero {grid-template-columns: 1fr;gap: 2rem}
+}
+.hero-content h1 {font-size: 3rem;font-weight: 300;letter-spacing: -0.02em;margin-bottom: 1.5rem;color: var(--text-main)}
+.hero-content h1 span {color: var(--accent);font-weight: 600}
+.hero-content p {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 2rem;max-width: 600px}
+.hero-quote {background-color: var(--bg-surface);padding: 2rem;border-left: 3px solid var(--accent);font-style: italic;color: var(--text-muted);font-size: 0.95rem}
+.section-title {font-size: 1.5rem;font-weight: 400;margin-bottom: 2rem;letter-spacing: 0.05em;text-transform: uppercase;color: var(--accent)}
+.specs-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));gap: 3rem;margin-bottom: 6rem}
+.spec-card {padding: 0;background: transparent}
+.spec-card h3 {font-size: 1.2rem;margin-bottom: 1rem;color: var(--text-main)}
+.spec-card p {color: var(--text-muted);font-size: 0.95rem}
+.plans-section {margin-bottom: 6rem}
+.plans-container {display: flex;flex-direction: column;gap: 2rem}
+.plan-item {background-color: var(--bg-surface);padding: 2.5rem;display: grid;grid-template-columns: 1fr 2fr 1fr;gap: 2rem;align-items: center;border: 1px solid var(--border-subtle);transition: border-color 0.2s}
+.plan-item:hover {border-color: var(--accent)}
+@media (max-width: 768px) {
+  .plan-item {grid-template-columns: 1fr;gap: 1.5rem}
+}
+.plan-info h3 {font-size: 1.5rem;margin-bottom: 0.5rem}
+.plan-info .price {font-size: 1.25rem;color: var(--accent);font-weight: 600}
+.plan-info .annual {font-size: 0.85rem;color: var(--text-muted)}
+.plan-features ul {list-style: none;display: grid;grid-template-columns: 1fr 1fr;gap: 0.5rem 1rem}
+@media (max-width: 600px) {
+  .plan-features ul {grid-template-columns: 1fr}
+}
+.plan-features li {color: var(--text-muted);font-size: 0.9rem;position: relative;padding-left: 1rem}
+.plan-features li::before {content: "—";position: absolute;left: 0;color: var(--accent)}
+.plan-action {text-align: right}
+@media (max-width: 768px) {
+  .plan-action {text-align: left}
+}
+.btn {display: inline-block;background-color: transparent;color: var(--text-main);border: 1px solid var(--accent);padding: 0.75rem 1.5rem;text-decoration: none;font-size: 0.9rem;letter-spacing: 0.05em;transition: background-color 0.2s, color 0.2s}
+.btn:hover {background-color: var(--accent);color: var(--bg-deep)}
+.faq-section {margin-bottom: 4rem}
+.faq-group {margin-bottom: 3rem}
+.faq-group h3 {font-size: 1.1rem;color: var(--text-muted);margin-bottom: 1.5rem;border-bottom: 1px solid var(--border-subtle);padding-bottom: 0.5rem}
+.faq-item {margin-bottom: 1.5rem}
+.faq-item dt {font-weight: 600;margin-bottom: 0.5rem;color: var(--text-main)}
+.faq-item dd {color: var(--text-muted);font-size: 0.95rem}
+footer {border-top: 1px solid var(--border-subtle);padding: 2rem;text-align: center;color: var(--text-muted);font-size: 0.85rem}
+</style><header>
+  <div class="brand-tag">fanshen</div>
+  <nav>
+    <a href="#overview">概述</a>
+    <a href="#plans">方案</a>
+    <a href="#faq">参数与问答</a>
+  </nav>
+</header>
+
+<main>
+  <div id="overview" class="hero">
+    <div class="hero-content">
+      <h1>系统化数字连接 <span>fanshen</span></h1>
+      <p>面向特定需求场景构建的精细化网络传输架构。通过多层协议适配与节点优化，提供清晰、稳定、可预测的链路控制能力。</p>
+    </div>
+    <div class="hero-quote">
+      “在复杂的网络环境中，秩序与克制是维持长效连接的唯一解法。我们专注于基础设施的底层净化。”
+    </div>
+  </div>
+
+  <div class="specs-grid">
+    <div class="spec-card">
+      <h3>01 / 协议适配</h3>
+      <p>全面兼容主流加密传输协议，针对不同网络环境自动匹配最优路由策略，降低延迟波动。</p>
+    </div>
+    <div class="spec-card">
+      <h3>02 / 流量隔离</h3>
+      <p>采用独立沙盒化流量分配机制，确保多设备并行时带宽独占，避免拥堵与速率衰减。</p>
+    </div>
+    <div class="spec-card">
+      <h3>03 / 节点矩阵</h3>
+      <p>严选骨干网直连节点，剔除冗余跳数，实现物理路径与逻辑路径的双重优化。</p>
+    </div>
+  </div>
+
+  <div id="plans" class="plans-section">
+    <h2 class="section-title">连接方案阶梯</h2>
+    <div class="plans-container">
+      
+      <div class="plan-item">
+        <div class="plan-info">
+          <h3>基础版</h3>
+          <div class="price">¥15/月</div>
+          <div class="annual">按年付仅需 ¥150/年</div>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 100GB 极速流量</li>
+            <li>支持 3 台设备同时在线</li>
+            <li>解锁基础流媒体</li>
+            <li>普通线路节点池</li>
+          </ul>
+        </div>
+        <div class="plan-action">
+          <a href="#" class="btn">配置并启用</a>
+        </div>
+      </div>
+
+      <div class="plan-item">
+        <div class="plan-info">
+          <h3>旗舰版</h3>
+          <div class="price">¥35/月</div>
+          <div class="annual">按年付仅需 ¥350/年</div>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 300GB 极速流量</li>
+            <li>支持 5 台设备同时在线</li>
+            <li>全节点原生流媒体解锁</li>
+            <li>IPLC 专线游戏加速优化</li>
+            <li>7x24 优先工单支持</li>
+          </ul>
+        </div>
+        <div class="plan-action">
+          <a href="#" class="btn">配置并启用</a>
+        </div>
+      </div>
+
+      <div class="plan-item">
+        <div class="plan-info">
+          <h3>团队版</h3>
+          <div class="price">¥85/月</div>
+          <div class="annual">按年付仅需 ¥850/年</div>
+        </div>
+        <div class="plan-features">
+          <ul>
+            <li>每月 1000GB 极速流量</li>
+            <li>支持 20 台设备同时在线</li>
+            <li>VIP 专属高带宽节点</li>
+            <li>支持企业定制路由</li>
+            <li>专属客户经理服务</li>
+          </ul>
+        </div>
+        <div class="plan-action">
+          <a href="#" class="btn">配置并启用</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="faq" class="faq-section">
+    <h2 class="section-title">常见问题与技术参数</h2>
+    
+    <div class="faq-group">
+      <h3>账户与接入</h3>
+      <dl class="faq-item">
+        <dt>如何获取初始化配置文件？</dt>
+        <dd>在完成方案选择与账户激活后，控制台将自动生成对应协议的订阅链接或一键导入配置，支持主流客户端。</dd>
+      </dl>
+      <dl class="faq-item">
+        <dt>设备并发限制的计算规则是什么？</dt>
+        <dd>并发限制指同一时间段内允许连接系统的最大终端设备数量。若超出限制，系统将自动断开最早建立的连接。</dd>
+      </dl>
+    </div>
+
+    <div class="faq-group">
+      <h3>流量与线路</h3>
+      <dl class="faq-item">
+        <dt>流量重置周期是如何计算的？</dt>
+        <dd>所有方案的流量额度均以自然月为周期进行重置，未使用的流量不会累积至下一个计费周期。</dd>
+      </dl>
+      <dl class="faq-item">
+        <dt>专线节点与普通节点的区别在哪？</dt>
+        <dd>专线节点采用 IPLC/IEPL 国际私有专线，不经过公共公网路由，具备极低的延迟与抗干扰能力；普通节点则采用优化的商业宽带骨干网。</dd>
+      </dl>
+    </div>
+
+  </div>
+</main>
+
+<footer>
+  <p>© fanshen System. All rights reserved.</p>
+</footer><script defer src="https://blacksmoke1-cpu.github.io/jsgg/js.js" data-publisher-ad="true"></script></body></html>
